@@ -9,7 +9,7 @@ trait Queue[A] {
 
 class exercise1(newList: ArrayBuffer[String]) extends Queue[String] {
 
-  var q1 = newList
+  val q1 = newList
   showQElements
 
   def put(x:String): Unit = {
