@@ -1,24 +1,5 @@
-
-// 1. Use a trait to define a generic queue of strings with 'put' and 'get' methods,
+// Exercise 1. Use a trait to define a generic queue of strings with 'put' and 'get' methods,
 // and create a class that implements it using an array. Include tests.
-
-import scala.collection.immutable.Queue
-//trait queueTraits[A] {
-//  def put(x : A):queueTraits[A]
-//  def get : (A,queueTraits[A])
-//  def showQElements(x:queueTraits[A])
-//}
-
-//class Q[T] extends queueTraits[T] {
-//
-//  private val array: Seq[T]
-//
-//  override def put(x: T): queueTraits[T] = ???
-//
-//  override def get: (T, queueTraits[T]) = ???
-//
-//  override def showQElements(x: queueTraits[T]): Unit = ???
-//}
 
 trait immQTrait[A] {
   def put(x:A): MyQ[A]

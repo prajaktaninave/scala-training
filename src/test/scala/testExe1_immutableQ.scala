@@ -1,5 +1,4 @@
 import org.scalatest.funsuite.AnyFunSuite
-
 import scala.collection.immutable.Seq
 import org.scalatest._
 import matchers.should._
