@@ -2,7 +2,7 @@ import org.scalatest.funsuite.AnyFunSuite
 import scala.collection.mutable.ListBuffer
 import scala.collection.mutable.ArrayBuffer
 
-class testExe1 extends AnyFunSuite {
+class testDemo1 extends AnyFunSuite {
 
   val newList = ArrayBuffer("Hi","Hello","abc")
   var c1 : exercise1 =_
