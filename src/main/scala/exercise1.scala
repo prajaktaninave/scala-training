@@ -1,13 +1,12 @@
-import scala.collection.mutable.ListBuffer
 import scala.collection.mutable.ArrayBuffer
 
-trait Queue[A] {
+trait tQueue[A] {
   def put(x : A)
   def get : A
   def showQElements
 }
 
-class exercise1(newList: ArrayBuffer[String]) extends Queue[String] {
+class exercise1(newList: ArrayBuffer[String]) extends tQueue[String] {
 
   val q1 = newList
   showQElements
